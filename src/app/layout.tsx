@@ -2,8 +2,8 @@ import React from 'react';
 import '@/styles/globals.css';
 
 export const metadata = {
-  title: 'KneppeMe',
-  description: 'Gennemse live Cam-modeller med filtre og detaljer.',
+  title: 'SeksUzivo',
+  description: 'Pregledaj live Cam modele.',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
