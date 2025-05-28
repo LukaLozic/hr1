@@ -19,7 +19,7 @@ export default function SearchBar({ value, onChange, onSubmit }: SearchBarProps)
           type="text"
           value={value}
           onChange={(e) => onChange(e.target.value)}
-          placeholder="Søg brugernavn..."
+          placeholder="Pretraži korisničko ime..."
           className="w-full px-5 py-2 text-sm bg-transparent text-white rounded-full outline-none focus:ring-0 placeholder-zinc-400"
         />
         <button
@@ -27,7 +27,7 @@ export default function SearchBar({ value, onChange, onSubmit }: SearchBarProps)
           className="rounded-full px-5 py-2 bg-pink-500 text-white font-bold text-sm transition-all hover:bg-pink-600 focus:bg-pink-600 focus:outline-none"
           style={{ borderTopLeftRadius: 0, borderBottomLeftRadius: 0 }}
         >
-          Søg
+          Traži
         </button>
       </div>
     </form>
